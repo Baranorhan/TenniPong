@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6532409599853045483}
   - component: {fileID: 6532409599853045486}
+  - component: {fileID: 8125765939924676854}
   - component: {fileID: 6532409599853045487}
   - component: {fileID: 6532409599853045480}
   - component: {fileID: 6532409599853045481}
@@ -83,6 +84,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8125765939924676854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6532409599853045476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b8a8cf03e5d6049acd5a6b8116bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  isAI: 1
 --- !u!58 &6532409599853045487
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -153,7 +168,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6532409600640730209}
-  - component: {fileID: 6532409600640730208}
   m_Layer: 0
   m_Name: AI
   m_TagString: Untagged
@@ -177,22 +191,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6532409600640730208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6532409600640730210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3410f3d70967bb442ac7eb982ff12c49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RacketAi: {fileID: 6532409599853045476}
-  CharRigid: {fileID: 6532409599661012164}
-  speed: 25
-  Ball: {fileID: 0}
 --- !u!1 &6532409600794923273
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +280,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &7374566207113362520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6821478454369044962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3410f3d70967bb442ac7eb982ff12c49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RacketAi: {fileID: 6532409599853045476}
+  CharRigid: {fileID: 6532409599661012164}
+  speed: 50
+  Ball: {fileID: 0}
+  racketdistance: 0.5
+  Airacket: {fileID: 8125765939924676854}
 --- !u!1001 &6532409599661012167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -354,6 +370,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5922486395411489771, guid: f320785bda5af1d448b52965a074a546,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: e9c199e06f8adea40a2e5f13f2c2081e, type: 2}
     - target: {fileID: 7070042237881623815, guid: f320785bda5af1d448b52965a074a546,
         type: 3}
       propertyPath: m_Color.r
@@ -369,11 +390,6 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5922486395411489771, guid: f320785bda5af1d448b52965a074a546,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: e9c199e06f8adea40a2e5f13f2c2081e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f320785bda5af1d448b52965a074a546, type: 3}
 --- !u!1 &6821478454369044962 stripped

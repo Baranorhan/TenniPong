@@ -10,10 +10,6 @@ public class GoalMade : MonoBehaviour
     public GoalGate RightWall;
     public GameObject[] Positions;
 
-    private void Updatet()
-    {
-
-    }
     public void Goal(GoalGate Wall)
     {
         Debug.Log(Wall.name);

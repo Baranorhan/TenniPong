@@ -6,22 +6,16 @@ public class racket : MonoBehaviour
 {
     private Rigidbody2D racketRigid;
     public float speed = 10.0f;
-
+    public bool isAI;
+    private float SwingRot = 0;
     private void Start()
     {
         racketRigid = gameObject.GetComponent<Rigidbody2D>();
-
     }
 
-    private void Update()
+  
+    public void Swing(int rot)
     {
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            racketRigid.AddForce(transform.right * speed, ForceMode2D.Impulse);
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            racketRigid.AddForce(transform.right * -speed, ForceMode2D.Impulse);
-        }
+        racketRigid.AddForce(transform.right * rot * speed, ForceMode2D.Impulse);
     }
 }

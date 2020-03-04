@@ -6,7 +6,7 @@ public class character : MonoBehaviour
 {
     private Rigidbody2D CharRigid;
     public float speed = 10.0f;
-
+    public racket CharRacket;
     private void Start()
     {
         CharRigid = gameObject.GetComponent<Rigidbody2D>();
@@ -30,6 +30,14 @@ public class character : MonoBehaviour
         if (Input.GetKey(KeyCode.S))
         {
             CharRigid.AddForce(transform.up * -speed , ForceMode2D.Impulse);
+        }
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            CharRacket.Swing(+1);
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            CharRacket.Swing(-1);
         }
     }
 }

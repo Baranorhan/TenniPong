@@ -2,25 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AiMedium : MonoBehaviour
+public class AiMedium : Character
 {
     // Start is called before the first frame update
-    public racket RacketAi;
-    public Rigidbody2D CharRigid;
-    public float speed = 25f;
     public Rigidbody2D Ball;
     private float _Ballx;
     private float _Bally;
     private float _Balldirection;
-    public float racketdistance = 0.5f;
     Vector2 _direction = new Vector2(0, 0);
 
-    //private void Start()
-    //{
-    //    racketRigid = gameObject.GetComponent<Rigidbody2D>();
-
-    //}
-    // Update is called once per frame
     private void FixedUpdate()
     {
         _Ballx = Ball.position.x;
@@ -55,20 +45,22 @@ public class AiMedium : MonoBehaviour
 
         }
 
-
-       
-
     }
     private void LateUpdate()
     {
 
-        CharRigid.AddForce(_direction * speed, ForceMode2D.Impulse);
 
-
-        if (Mathf.Abs(_Ballx - CharRigid.position.x) < 1 && Mathf.Abs(_Bally - CharRigid.position.y) < 1)// Swing Time{
+        Debug.Log(Mathf.Abs(_Ballx - CharRigid.position.x)+"hi" +Mathf.Abs(_Bally - CharRigid.position.y));
+        if (Mathf.Abs(_Ballx - CharRigid.position.x) <2 && Mathf.Abs(_Bally - CharRigid.position.y) < 1)// Swing Time{
         {
-            RacketAi.Swing(+1);
+            if(CharRigid.position.y<0)
+            CharRacket.Swing(+1);
+            else
+                CharRacket.Swing(-1);
+
             Debug.Log("hi");
         }
+        CharRigid.AddForce(_direction * speed, ForceMode2D.Impulse);
+
     }
 }

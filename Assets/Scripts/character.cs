@@ -2,42 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class character : MonoBehaviour
+public class Character : MonoBehaviour
 {
-    private Rigidbody2D CharRigid;
+    protected Rigidbody2D CharRigid;
     public float speed = 10.0f;
-    public racket CharRacket;
+    public Racket CharRacket;
+    private Transform StatPos;
+    public int isLeft;
+
     private void Start()
     {
-        CharRigid = gameObject.GetComponent<Rigidbody2D>();
-        
+        CharRigid = GetComponentInChildren<Rigidbody2D>(); //GEtting First child Be careful
+
     }
 
-    private void Update()
+
+    public void ResetPosition()
     {
-        if (Input.GetKey(KeyCode.W))
-        {
-            CharRigid.AddForce(transform.up * speed,  ForceMode2D.Impulse);
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            CharRigid.AddForce(transform.right * -speed , ForceMode2D.Impulse);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            CharRigid.AddForce(transform.right * speed , ForceMode2D.Impulse);
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            CharRigid.AddForce(transform.up * -speed , ForceMode2D.Impulse);
-        }
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            CharRacket.Swing(+1);
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            CharRacket.Swing(-1);
-        }
+        CharRigid.velocity = new Vector3(0f, 0f, 0f);
+        CharRacket.ResetPosRacket();
+        CharRigid.position = new Vector3(-isLeft*7f, 0f, 0f);
+
     }
 }

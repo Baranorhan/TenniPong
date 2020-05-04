@@ -4,7 +4,7 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 
-public class Character : MonoBehaviourPunCallbacks
+public class Character : MonoBehaviour
 {
     protected Rigidbody2D CharRigid;
     public float speed = 10.0f;

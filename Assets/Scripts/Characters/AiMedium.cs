@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class AiMedium : Character
 {
     // Start is called before the first frame update
@@ -48,7 +49,6 @@ public class AiMedium : Character
     }
     private void LateUpdate()
     {
-
 
         Debug.Log(Mathf.Abs(_Ballx - CharRigid.position.x)+"hi" +Mathf.Abs(_Bally - CharRigid.position.y));
         if (Mathf.Abs(_Ballx - CharRigid.position.x) <2 && Mathf.Abs(_Bally - CharRigid.position.y) < 1)// Swing Time{

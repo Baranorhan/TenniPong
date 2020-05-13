@@ -1885,22 +1885,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137790101}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7f4f66f0d3770641970d6946ffc7575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mpGameobj:
-    Host: {fileID: 7046220915748733496, guid: 52c77eaa9b5f99948a70fad60f824d25, type: 3}
-    ball: {fileID: 7206631516492620880, guid: dc0ee742869e39c40bb851d87acfaa4c, type: 3}
-    Client: {fileID: 7046220915748733496, guid: c746b8b85b5696f4bb6bc1e4e8c63490,
-      type: 3}
-  uiObj:
-    LoginMenu: {fileID: 345736582}
-    LoadingScreen: {fileID: 812739290}
-    Spinner: {fileID: 1205961391}
-    SpinnerRotationSpeed: 80
-    WaitingForPlayer: {fileID: 360725210}
+  mpGameobjects:
+    host: {fileID: 0}
+    ball: {fileID: 0}
+    client: {fileID: 0}
 --- !u!4 &1137790103
 Transform:
   m_ObjectHideFlags: 0
@@ -2199,11 +2192,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c93c3df3feb29546bc8158f3d936f6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LeftScore: {fileID: 1370522526}
-  RightScore: {fileID: 1917644957}
-  LeftChar: {fileID: 1169694721, guid: 52c77eaa9b5f99948a70fad60f824d25, type: 3}
-  RightChar: {fileID: 1169694721, guid: c746b8b85b5696f4bb6bc1e4e8c63490, type: 3}
-  Ball: {fileID: 7206631516492620884, guid: dc0ee742869e39c40bb851d87acfaa4c, type: 3}
+  leftScore: {fileID: 0}
+  rightScore: {fileID: 0}
+  leftChar: {fileID: 0}
+  rightChar: {fileID: 0}
+  ball: {fileID: 0}
   canvas: {fileID: 133849015}
 --- !u!23 &1509487039
 MeshRenderer:

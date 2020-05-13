@@ -6,43 +6,44 @@ using UnityEngine;
 public class AiMedium : Character
 {
     // Start is called before the first frame update
-    public Rigidbody2D Ball;
-    private float _Ballx;
-    private float _Bally;
-    private float _Balldirection;
-    Vector2 _direction = new Vector2(0, 0);
+    public Rigidbody2D ball;
+    private float _ballx;
+    private float _bally;
+    private float _balldirection;
+    [SerializeField] private Vector2 direction = new Vector2(0, 0);
 
     private void FixedUpdate()
     {
-        _Ballx = Ball.position.x;
-        _Bally = Ball.position.y;
-        _Balldirection = Ball.velocity.x;
+        var position = ball.position;
+        _ballx = position.x;
+        _bally = position.y;
+        _balldirection = ball.velocity.x;
 
-        if (Mathf.Abs(_Bally - CharRigid.position.y) < 0.4f)
-            _direction.y = 0;
+        if (Mathf.Abs(_bally - CharRigid.position.y) < 0.4f)
+            direction.y = 0;
 
-        else if (_Bally>CharRigid.position.y)
+        else if (_bally>CharRigid.position.y)
         {
-                _direction.y = 1;
+                direction.y = 1;
         }
         else
-            {
-                _direction.y = -1;
-            };
-        if (_Ballx < 0 ) // Top karşı sahada
+        {
+            direction.y = -1;
+        }
+        if (_ballx < 0 ) // Top karşı sahada
         {
             if (CharRigid.position.x < 7.1f) // arkada bekle 
-                _direction.x = 1;
+                direction.x = 1;
             else
-                _direction.x = 0;
+                direction.x = 0;
 
         }
-        else if (_Ballx > 0 && _Balldirection < 0.7f) // Top sahada ve yavaş
+        else if (_ballx > 0 && _balldirection < 0.7f) // Top sahada ve yavaş
         {
-            if (_Ballx > CharRigid.position.x) //top arkada
-                _direction.x = 1;
+            if (_ballx > CharRigid.position.x) //top arkada
+                direction.x = 1;
             else
-                _direction.x = -0.2f;
+                direction.x = -0.2f;
 
         }
 
@@ -50,17 +51,19 @@ public class AiMedium : Character
     private void LateUpdate()
     {
 
-        Debug.Log(Mathf.Abs(_Ballx - CharRigid.position.x)+"hi" +Mathf.Abs(_Bally - CharRigid.position.y));
-        if (Mathf.Abs(_Ballx - CharRigid.position.x) <2 && Mathf.Abs(_Bally - CharRigid.position.y) < 1)// Swing Time{
+        if (Mathf.Abs(_ballx - CharRigid.position.x) <2)
         {
-            if(CharRigid.position.y<0)
-            CharRacket.Swing(+1);
-            else
-                CharRacket.Swing(-1);
+            if (Mathf.Abs(_bally - CharRigid.position.y) < 1)
+            {
+                if(CharRigid.position.y<0)
+                    charRacket.Swing(+1);
+                else
+                    charRacket.Swing(-1);
 
-            Debug.Log("hi");
+                Debug.Log("hi");
+            }
         }
-        CharRigid.AddForce(_direction * speed, ForceMode2D.Impulse);
+        CharRigid.AddForce(direction * speed, ForceMode2D.Impulse);
 
     }
 }

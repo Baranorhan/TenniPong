@@ -3,38 +3,38 @@ using Photon.Realtime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
     // Start is called before the first frame update
     [System.Serializable]
-    public class MPGameobj
+    public class MpGameobjectClass// Multi player game objects
     {
-        public GameObject Host;
+        public GameObject host;
         public GameObject ball;
-        public GameObject Client;
+        public GameObject client;
 
     }
     [System.Serializable]
     public class UiObj
     {
-        public GameObject LoginMenu;
-        public GameObject LoadingScreen;
-        public Image Spinner;
-        public float SpinnerRotationSpeed;
-        public GameObject WaitingForPlayer;
+        public GameObject loginMenu;
+        public GameObject loadingScreen;
+        public Image spinner;
+        public float spinnerRotationSpeed;
+        public GameObject waitingForPlayer;
 
     }
-    public MPGameobj mpGameobj = new MPGameobj();
-    public UiObj uiObj = new UiObj();
-   
-    private bool isHost = false;
+    public MpGameobjectClass mpGameobjects = new MpGameobjectClass();
+    private readonly UiObj _uiObj = new UiObj();
+    private bool _isHost = false;
 
     private void Start()
     {
         Debug.Log("connecting");
-        PhotonNetwork.NickName = "deneme " + Random.Range(0, 999).ToString();
+        PhotonNetwork.NickName = "Try " + Random.Range(0, 999).ToString();
         PhotonNetwork.GameVersion = "0.0.1";
 
         PhotonNetwork.ConnectUsingSettings();
@@ -43,7 +43,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     }
     void Update()
     {
-        uiObj.Spinner.rectTransform.Rotate(Vector3.forward * (uiObj.SpinnerRotationSpeed * Time.deltaTime));
+        _uiObj.spinner.rectTransform.Rotate(Vector3.forward * (_uiObj.spinnerRotationSpeed * Time.deltaTime));
     }
 
     public override void OnConnectedToMaster()
@@ -51,18 +51,18 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         Debug.Log("connected");
         Debug.Log(PhotonNetwork.LocalPlayer.NickName);
         PhotonNetwork.AutomaticallySyncScene = true;
-        uiObj.LoginMenu.SetActive(true);
-        uiObj.LoadingScreen.SetActive(false);
+        _uiObj.loginMenu.SetActive(true);
+        _uiObj.loadingScreen.SetActive(false);
 
     }
     public override void OnDisconnected(DisconnectCause cause)
     {
-        Debug.Log("disconected");
+        Debug.Log("disconnected");
     }
 
     public void JoinGameTenni()
     {
-        uiObj.LoginMenu.SetActive(false);
+        _uiObj.loginMenu.SetActive(false);
 
         if (PhotonNetwork.IsConnected)
         {
@@ -86,17 +86,19 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public override void OnCreatedRoom()
     {
         Debug.Log("created.");
-        PhotonNetwork.Instantiate(mpGameobj.Host.name, new Vector3(-7f, 0f, 0f), Quaternion.identity, 0);
-        isHost = true;
-        uiObj.LoadingScreen.SetActive(true);
-        uiObj.WaitingForPlayer.SetActive(true);
+        PhotonNetwork.Instantiate(mpGameobjects.host.name,
+        new Vector3(-7f, 0f, 0f), Quaternion.identity, 0);
+        _isHost = true;
+        _uiObj.loadingScreen.SetActive(true);
+        _uiObj.waitingForPlayer.SetActive(true);
 
     }
 
     public override void OnJoinedRoom()
     {
-        if (!isHost)
-            PhotonNetwork.Instantiate(mpGameobj.Client.name, new Vector3(7f, 0f, 0f), Quaternion.identity, 0);
+        if (!_isHost)
+            PhotonNetwork.Instantiate(mpGameobjects.client.name, 
+         new Vector3(7f, 0f, 0f), Quaternion.identity, 0);
 
         Debug.Log("joined.");
 
@@ -104,10 +106,10 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
-        uiObj.LoadingScreen.SetActive(false);
-        uiObj.WaitingForPlayer.SetActive(false);
+        _uiObj.loadingScreen.SetActive(false);
+        _uiObj.waitingForPlayer.SetActive(false);
 
-        PhotonNetwork.Instantiate(mpGameobj.ball.name, new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
+        PhotonNetwork.Instantiate(mpGameobjects.ball.name, new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
 
         Debug.Log(newPlayer);
     }

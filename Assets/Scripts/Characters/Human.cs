@@ -1,18 +1,23 @@
-﻿using Photon.Pun;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
 public class Human : Character
 {
+    private Vector3 _movement;
+    private float _racket;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-       
-        if(photonView.IsMine)
-        {
-           
-        }
+        Move();
+    }
+
+    private void Move()
+    {
+        _movement =new Vector3(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"),0);
+        CharRigid.AddForce(_movement * -speed, ForceMode2D.Impulse);
+        _racket = Input.GetAxis("Racket");
+        if(Math.Abs(_racket) > 0.1)
+            charRacket.Swing(_racket);
+        
     }
 }

@@ -355,9 +355,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6532409600640730209}
-  - component: {fileID: 363074555}
+  - component: {fileID: 445042481103824388}
+  - component: {fileID: 7100106690372980698}
+  - component: {fileID: 9030082850654469424}
   m_Layer: 0
-  m_Name: AI
+  m_Name: MLright
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -379,7 +381,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &363074555
+--- !u!114 &445042481103824388
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -388,11 +390,53 @@ MonoBehaviour:
   m_GameObject: {fileID: 6532409600640730210}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 342f288c9f986ac4cbe8cee6e489b00a, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_BrainParameters:
+    VectorObservationSize: 10
+    NumStackedVectorObservations: 3
+    VectorActionSize: 03000000
+    VectorActionDescriptions: []
+    VectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: TenniPong
+  TeamId: 0
+  m_UseChildSensors: 0
+--- !u!114 &7100106690372980698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6532409600640730210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d22eb45a87c3c84dbc46c404e771f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 5000
   speed: 10
   charRacket: {fileID: 8125765939924676854}
-  isLeft: 0
-  ball: {fileID: 7206631516492620884, guid: b7d881e61f407354a8f84deb0763963c, type: 3}
-  direction: {x: 0, y: 0}
+  ball: {fileID: 0}
+  invertX: 0
+  myArea: {fileID: 0}
+--- !u!114 &9030082850654469424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6532409600640730210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DecisionPeriod: 5
+  TakeActionsBetweenDecisions: 1

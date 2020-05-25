@@ -2,11 +2,22 @@
 
 public class Racket : MonoBehaviour
 {
-    private Rigidbody2D _racketRigid;
+    private Rigidbody2D _racketRigid ;
     [SerializeField] private float speed = 10.0f;
-    private Vector3 _startVel, _startPos;
+    private Vector3 _startPos;
+    private Vector2 _startVel;
     private float _startrot;
 
+    public float getRacketAngularVelocity()
+    {
+        return _racketRigid.angularVelocity;
+    }
+
+    public float getRacketRotation()
+    {
+        return _racketRigid.rotation % 360;
+    }
+    
     private void Start()
     {
         _racketRigid = gameObject.GetComponent<Rigidbody2D>();
@@ -22,6 +33,7 @@ public class Racket : MonoBehaviour
 
     public void ResetPosRacket()
     {
+        if (_racketRigid == null) return;
         _racketRigid.velocity = _startVel;
         _racketRigid.position = _startPos;
         _racketRigid.rotation = _startrot;

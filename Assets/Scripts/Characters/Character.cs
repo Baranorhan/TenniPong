@@ -10,12 +10,10 @@ public class Character : MonoBehaviour
     protected Rigidbody2D CharRigid;
     public float speed = 10.0f;
     [SerializeField] protected Racket charRacket;
-    private Transform _statPos;
     public bool isLeft;
     private void Start()
     {
         CharRigid = GetComponentInChildren<Rigidbody2D>(); //Getting First child Be careful
-   
     }
 
     public void ResetPosition()

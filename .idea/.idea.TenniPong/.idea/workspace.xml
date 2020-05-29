@@ -20,33 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd38941-d50b-41ea-b905-976c7e4b7e50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Arts/Materials/Spinner.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Arts/Materials/Spinner.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Başlıksız-1.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Başlıksız-1.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Multiplayer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Multiplayer/Client Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Multiplayer/Client Variant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Multiplayer/Host Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Multiplayer/Host Variant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/background.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/background.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/walls 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/walls 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/walls.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/walls.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Racket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Racket.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/AI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/AI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/TrainScene_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/TrainScene_timers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TrainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TrainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +60,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Racket.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Racket.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" />
       </list>
@@ -133,6 +112,7 @@
       <workItem from="1589470531437" duration="2033000" />
       <workItem from="1590261754004" duration="831000" />
       <workItem from="1590313027059" duration="18918000" />
+      <workItem from="1590427497594" duration="9794000" />
     </task>
     <servers />
   </component>

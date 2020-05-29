@@ -1,9 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.Mathematics;
 using Unity.MLAgents;
 using Unity.MLAgents.Sensors;
 using UnityEngine;
+using Random = System.Random;
 
 public class Mlagent : Agent
 {
@@ -12,10 +15,11 @@ public class Mlagent : Agent
 
     public GameObject ball;
     public bool invertX;
-    public GameObject myArea;
+    public Transform myArea;
     Rigidbody2D m_AgentRb;
     Rigidbody2D m_BallRb;
     float m_InvertMult;
+    private float reward;
 
     public override void Initialize()
     {
@@ -26,21 +30,50 @@ public class Mlagent : Agent
    
     private void ResetPosition()
     {
+        var myAreaPosition = myArea.position;
         m_AgentRb.velocity = new Vector3(0f, 0f, 0f);
-        m_AgentRb.position = new Vector3(m_InvertMult*7f, 0f, 0f);
+        m_AgentRb.position = new Vector3(myAreaPosition.x+ m_InvertMult*7f,
+                                            myAreaPosition.y, 
+                                            myAreaPosition.z);
         charRacket.ResetPosRacket();
 
     }
     public override void OnEpisodeBegin()
     {
         m_InvertMult = invertX ? 1f : -1f;
-
+        if (invertX)
+            BallResetAgent();
         ResetPosition();
     }
+
+    private void BallResetAgent()
+    {
+        m_BallRb.rotation = 0;
+        m_BallRb.position = myArea.position;
+        m_BallRb.velocity = new Vector3(-1, 0, 0);
+
+        }    
+
+    private void Update()
+    {
+        //character range  -5 to 5
+        // reward agent if its near the ball but not too near
+        var distanceBetweenBall = ball.transform.position.y - m_AgentRb.position.y;
+
+        if (Math.Abs(distanceBetweenBall) < 1)
+        {
+            reward = 0;
+            return ; // don't want ball too close
+        }
+        
+        reward = Mathf.Lerp(0.1f, 0,distanceBetweenBall/5);
+        AddReward(reward);
+    }
+
     public override void CollectObservations(VectorSensor sensor)
     {
         var position = transform.position;
-        var myAreaPosition = myArea.transform.position;
+        var myAreaPosition = myArea.position;
         var ballPosition = ball.transform.position;
 
         sensor.AddObservation(m_InvertMult * (position.x - myAreaPosition.x));
@@ -56,7 +89,7 @@ public class Mlagent : Agent
         
         sensor.AddObservation(m_InvertMult * charRacket.getRacketRotation());
         sensor.AddObservation(m_InvertMult * charRacket.getRacketAngularVelocity());
-
+        
     }
     
     public override void OnActionReceived(float[] vectorAction)

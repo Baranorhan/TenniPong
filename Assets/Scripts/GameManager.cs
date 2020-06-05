@@ -9,10 +9,13 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _score;
     private int _scoreLeft = 0, _scoreRight = 0 ;
-    [SerializeField] private Character leftChar, rightChar;
+     private Character leftChar, rightChar;
+     private Mlagent _mLRight;
+     private bool _mlMode;
     [SerializeField] private Rigidbody2D ball;
     public void Goal(GoalGate wall)
     {
+        Debug.Log(_scoreRight);
         if (wall.name.Equals("LeftCollider"))
         {
             _scoreLeft += 1;
@@ -25,14 +28,29 @@ public class GameManager : MonoBehaviour
         _score.text = _scoreLeft + "         " + _scoreRight;
         
         leftChar.ResetPosition();
-        rightChar.ResetPosition();
+        if (_mlMode)
+        {
+            _mLRight.ResetPosition();
+        }
+        else
+        {
+            rightChar.ResetPosition();
+        }
         ResetBall();
     }
 
-    // Start is called before the first frame update
     void Start()
     {
+        leftChar = GameObject.Find("Left").GetComponent<Character>();
+
         ResetBall();
+        _mLRight = GameObject.Find("MLright").GetComponent<Mlagent>();
+        if (_mLRight != null)
+        {
+            _mlMode = true;
+            return;
+        }
+        rightChar = GameObject.Find("Right").GetComponent<Character>();
     }
 
     private void  ResetBall()

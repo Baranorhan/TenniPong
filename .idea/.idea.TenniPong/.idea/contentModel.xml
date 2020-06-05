@@ -167,6 +167,7 @@
           <e p="GameManagerML.cs" t="Include" />
           <e p="GoalGate.cs" t="Include" />
           <e p="GoalMade.cs" t="Include" />
+          <e p="MenuManager.cs" t="Include" />
           <e p="NetworkManager.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

@@ -20,12 +20,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd38941-d50b-41ea-b905-976c7e4b7e50" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/TrainScene_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/TrainScene_timers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/background.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/background.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TrainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TrainScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TenniPong.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TenniPong.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/trainer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Config/trainer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/frozen_graph_def.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-1214786.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-1214786.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-1214786.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-428850.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-428850.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-428850.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-845048.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-845048.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-845048.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/raw_graph_def.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong/frozen_graph_def.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong/model-39498.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong/model-39498.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong/model-39498.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong/raw_graph_def.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/frozen_graph_def.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-34759.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-34759.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-34759.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-466922.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-466922.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-466922.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-724016.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-724016.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-724016.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/raw_graph_def.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/frozen_graph_def.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/model-425683.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/model-425683.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/model-703389.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/model-703389.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/model-703389.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/raw_graph_def.pb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +100,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4684D128-CCC1-4E17-9166-D4C2F7A36AEC/0f/2c960c46/AssetDatabase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GoalMade.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -60,10 +112,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Racket.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" />
       </list>
@@ -80,7 +133,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -113,6 +166,12 @@
       <workItem from="1590261754004" duration="831000" />
       <workItem from="1590313027059" duration="18918000" />
       <workItem from="1590427497594" duration="9794000" />
+      <workItem from="1590750621964" duration="6740000" />
+      <workItem from="1590923214271" duration="1367000" />
+      <workItem from="1590924923365" duration="2402000" />
+      <workItem from="1591004872336" duration="3046000" />
+      <workItem from="1591090219535" duration="984000" />
+      <workItem from="1591345546481" duration="5980000" />
     </task>
     <servers />
   </component>
@@ -138,10 +197,10 @@
       <screen x="0" y="0" width="1360" height="768" />
     </state>
     <state x="493" y="75" key="RiderGenerateDialog/0.0.1360.768@0.0.1360.768" timestamp="1589378025634" />
-    <state x="181" y="29" key="SettingsEditor" timestamp="1590314509129">
+    <state x="181" y="29" key="SettingsEditor" timestamp="1590924560329">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state x="181" y="29" key="SettingsEditor/0.0.1360.768@0.0.1360.768" timestamp="1590314509129" />
+    <state x="181" y="29" key="SettingsEditor/0.0.1360.768@0.0.1360.768" timestamp="1590924560329" />
     <state x="92" y="92" width="1176" height="584" key="VCS.FileHistoryDialog" timestamp="1589401711376">
       <screen x="0" y="0" width="1360" height="768" />
     </state>

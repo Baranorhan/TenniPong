@@ -6,7 +6,7 @@ using TMPro;
 using UnityEngine;
 
 public class GameManagerML : MonoBehaviour
-{
+{            //TODO change monobehavior to gamemanager
     [SerializeField] private TextMeshProUGUI _score;
     private int _scoreLeft = 0, _scoreRight = 0 ;
     [SerializeField] private Mlagent m_AgentA;

@@ -2099,6 +2099,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _score: {fileID: 1700085523}
+  leftChar: {fileID: 1686210857843607885, guid: 52c77eaa9b5f99948a70fad60f824d25,
+    type: 3}
+  rightChar: {fileID: 1686210857843607885, guid: c7285a52601f7704c8b074543fe83234,
+    type: 3}
   ball: {fileID: 7206631516492620884, guid: dc0ee742869e39c40bb851d87acfaa4c, type: 3}
 --- !u!23 &1509487039
 MeshRenderer:

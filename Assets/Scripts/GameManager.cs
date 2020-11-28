@@ -7,12 +7,10 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI _score;
-    private int _scoreLeft = 0, _scoreRight = 0 ;
-     private Character leftChar, rightChar;
-     private Mlagent _mLRight;
-     private bool _mlMode;
-    [SerializeField] private Rigidbody2D ball;
+    [SerializeField] protected TextMeshProUGUI _score;
+    protected int _scoreLeft = 0, _scoreRight = 0 ;
+    [SerializeField] protected Character leftChar, rightChar;
+    [SerializeField] protected Rigidbody2D ball;
     public void Goal(GoalGate wall)
     {
         Debug.Log(_scoreRight);
@@ -27,35 +25,21 @@ public class GameManager : MonoBehaviour
 
         _score.text = _scoreLeft + "         " + _scoreRight;
         
-        leftChar.ResetPosition();
-        if (_mlMode)
-        {
-            _mLRight.ResetPosition();
-        }
-        else
-        {
-            rightChar.ResetPosition();
-        }
         ResetBall();
+        leftChar.ResetPosition();
+        rightChar.ResetPosition();    //TODO singleton this add clones at network manager.
+        
     }
 
     void Start()
     {
-        leftChar = GameObject.Find("Left").GetComponent<Character>();
-
         ResetBall();
-        if (GameObject.Find("MLright") != null)
-        { 
-            _mLRight = GameObject.Find("MLright").GetComponent<Mlagent>();
-            _mlMode = true;
-            return;
-        }
-
-        rightChar = GameObject.Find("Right").GetComponent<Character>();
     }
 
-    private void  ResetBall()
+    protected void  ResetBall()
     {
+        Debug.Log(ball.position);
+
         ball.rotation = 0;
         ball.position = new Vector3(-0.2f, 0, 0);
         ball.velocity = new Vector3(0, 0, 0);

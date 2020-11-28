@@ -90,6 +90,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         new Vector3(-7f, 0f, 0f), Quaternion.identity, 0);
         _isHost = true;
         _uiObj.loadingScreen.SetActive(true);
+        PhotonNetwork.Instantiate(mpGameobjects.ball.name, new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
 
     }
 
@@ -108,7 +109,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         _uiObj.loadingScreen.SetActive(false);
 
-        PhotonNetwork.Instantiate(mpGameobjects.ball.name, new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
+        //PhotonNetwork.Instantiate(mpGameobjects.ball.name, new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
 
         Debug.Log(newPlayer);
     }

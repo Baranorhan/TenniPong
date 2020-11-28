@@ -24,11 +24,11 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         public GameObject loadingScreen;
         public Image spinner;
         public float spinnerRotationSpeed;
-        public GameObject waitingForPlayer;
+        //TODO public GameObject waitingForPlayer;
 
     }
-    public MpGameobjectClass mpGameobjects = new MpGameobjectClass();
-    private readonly UiObj _uiObj = new UiObj();
+    [SerializeField] private MpGameobjectClass mpGameobjects = new MpGameobjectClass();
+    [SerializeField] private UiObj _uiObj = new UiObj();
     private bool _isHost = false;
 
     private void Start()
@@ -41,7 +41,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         PhotonNetwork.AutomaticallySyncScene = true;
 
     }
-    void Update()
+    void Update() 
     {
         _uiObj.spinner.rectTransform.Rotate(Vector3.forward * (_uiObj.spinnerRotationSpeed * Time.deltaTime));
     }
@@ -90,7 +90,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         new Vector3(-7f, 0f, 0f), Quaternion.identity, 0);
         _isHost = true;
         _uiObj.loadingScreen.SetActive(true);
-        _uiObj.waitingForPlayer.SetActive(true);
 
     }
 
@@ -102,12 +101,12 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
         Debug.Log("joined.");
 
+        
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
         _uiObj.loadingScreen.SetActive(false);
-        _uiObj.waitingForPlayer.SetActive(false);
 
         PhotonNetwork.Instantiate(mpGameobjects.ball.name, new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
 

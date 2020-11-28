@@ -23,59 +23,31 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/TrainScene_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/TrainScene_timers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/background.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/background.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TrainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TrainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LightweightRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LightweightRenderPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/Menu_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/Menu_timers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/SampleScene_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/SampleScene_timers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsFile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsFile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rackets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rackets/Başlıksız-1.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rackets/Başlıksız-1.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Left.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Left.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Right.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Right.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ball1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ball1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Multiplayer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Multiplayer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TenniPong.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TenniPong.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/trainer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Config/trainer.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/frozen_graph_def.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-1214786.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-1214786.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-1214786.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-428850.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-428850.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-428850.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-845048.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-845048.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/model-845048.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hadibakalım/TenniPong/raw_graph_def.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong/frozen_graph_def.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong/model-39498.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong/model-39498.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong/model-39498.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/bismillah2/TenniPong/raw_graph_def.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/frozen_graph_def.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-34759.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-34759.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-34759.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-466922.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-466922.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-466922.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-724016.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-724016.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/model-724016.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newreward/TenniPong/raw_graph_def.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/frozen_graph_def.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/model-425683.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/model-425683.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/model-703389.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/model-703389.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/model-703389.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newrewardv2/TenniPong/raw_graph_def.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NetworkManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,39 +58,42 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/CharacterMoments.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Multiplayer.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Racket.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ml-agents@1.0.2-preview/Runtime/Agent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ml-agents@1.0.2-preview/Runtime/Academy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4684D128-CCC1-4E17-9166-D4C2F7A36AEC/0f/2c960c46/AssetDatabase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GoalMade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Racket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Multiplayer.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/CharacterMoments.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ml-agents@1.0.2-preview/Runtime/Academy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PunClasses.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ml-agents@1.0.2-preview/Runtime/Agent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManagerNet.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/NetworkManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/CharacterMoments.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Racket.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManagerNet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NetworkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" />
       </list>
     </option>
   </component>
@@ -172,8 +147,14 @@
       <workItem from="1591004872336" duration="3046000" />
       <workItem from="1591090219535" duration="984000" />
       <workItem from="1591345546481" duration="5980000" />
+      <workItem from="1606416109286" duration="3324000" />
+      <workItem from="1606468040380" duration="5177000" />
+      <workItem from="1606579174548" duration="1582000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -193,25 +174,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="493" y="75" key="RiderGenerateDialog" timestamp="1589378025634">
-      <screen x="0" y="0" width="1360" height="768" />
+    <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog" timestamp="1606477380662">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="493" y="75" key="RiderGenerateDialog/0.0.1360.768@0.0.1360.768" timestamp="1589378025634" />
-    <state x="181" y="29" key="SettingsEditor" timestamp="1590924560329">
-      <screen x="0" y="0" width="1360" height="768" />
-    </state>
-    <state x="181" y="29" key="SettingsEditor/0.0.1360.768@0.0.1360.768" timestamp="1590924560329" />
-    <state x="92" y="92" width="1176" height="584" key="VCS.FileHistoryDialog" timestamp="1589401711376">
-      <screen x="0" y="0" width="1360" height="768" />
-    </state>
-    <state x="92" y="92" width="1176" height="584" key="VCS.FileHistoryDialog/0.0.1360.768@0.0.1360.768" timestamp="1589401711376" />
-    <state x="452" y="98" key="git4idea.branch.GitSmartOperationDialog" timestamp="1589375127977">
-      <screen x="0" y="0" width="1360" height="768" />
-    </state>
-    <state x="452" y="98" key="git4idea.branch.GitSmartOperationDialog/0.0.1360.768@0.0.1360.768" timestamp="1589375127977" />
-    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1589300912182">
-      <screen x="0" y="0" width="1360" height="768" />
-    </state>
-    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1360.768@0.0.1360.768" timestamp="1589300912182" />
+    <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog/0.0.1536.864@0.0.1536.864" timestamp="1606477380662" />
   </component>
 </project>

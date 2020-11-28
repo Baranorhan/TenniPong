@@ -53,6 +53,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -214,6 +215,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -445,6 +447,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23ada6d736bff634aa9677946979f20a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  charRacket: {fileID: 3615969481604852478}
+  isLeft: 0
 --- !u!1 &7046220917005818519
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,6 +525,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7046220915748733497}
     m_Modifications:
+    - target: {fileID: 291895497239608613, guid: f320785bda5af1d448b52965a074a546,
+        type: 3}
+      propertyPath: m_Name
+      value: char1
+      objectReference: {fileID: 0}
+    - target: {fileID: 291895497239608613, guid: f320785bda5af1d448b52965a074a546,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5453129915079046931, guid: f320785bda5af1d448b52965a074a546,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -574,16 +589,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 291895497239608613, guid: f320785bda5af1d448b52965a074a546,
-        type: 3}
-      propertyPath: m_Name
-      value: char1
-      objectReference: {fileID: 0}
-    - target: {fileID: 291895497239608613, guid: f320785bda5af1d448b52965a074a546,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f320785bda5af1d448b52965a074a546, type: 3}

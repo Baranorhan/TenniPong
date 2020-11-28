@@ -5,12 +5,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManagerNet : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _score;
     private int _scoreLeft = 0, _scoreRight = 0 ;
      private Character leftChar, rightChar;
-     private Mlagent _mLRight;
      private bool _mlMode;
     [SerializeField] private Rigidbody2D ball;
     public void Goal(GoalGate wall)
@@ -26,16 +25,9 @@ public class GameManager : MonoBehaviour
         }
 
         _score.text = _scoreLeft + "         " + _scoreRight;
-        
         leftChar.ResetPosition();
-        if (_mlMode)
-        {
-            _mLRight.ResetPosition();
-        }
-        else
-        {
-            rightChar.ResetPosition();
-        }
+        rightChar.ResetPosition();
+        
         ResetBall();
     }
 
@@ -44,12 +36,7 @@ public class GameManager : MonoBehaviour
         leftChar = GameObject.Find("Left").GetComponent<Character>();
 
         ResetBall();
-        if (GameObject.Find("MLright") != null)
-        { 
-            _mLRight = GameObject.Find("MLright").GetComponent<Mlagent>();
-            _mlMode = true;
-            return;
-        }
+       
 
         rightChar = GameObject.Find("Right").GetComponent<Character>();
     }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Samsung\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Samsung\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_TenniPong.2120709635.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Samsung\TenniPong" t="IncludeRecursive">
+    <e p="C:\Users\baran\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\baran\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_TenniPong.1287186731.00" t="ExcludeRecursive" />
+    <e p="C:\Users\baran\Desktop\PRojects\TenniPong" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Photon" t="Include">
@@ -165,6 +165,7 @@
           </e>
           <e p="GameManager.cs" t="Include" />
           <e p="GameManagerML.cs" t="Include" />
+          <e p="GameManagerNet.cs" t="Include" />
           <e p="GoalGate.cs" t="Include" />
           <e p="GoalMade.cs" t="Include" />
           <e p="MenuManager.cs" t="Include" />

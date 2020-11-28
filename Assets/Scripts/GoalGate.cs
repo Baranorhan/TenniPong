@@ -23,6 +23,8 @@ public class GoalGate : MonoBehaviour
         }
         else throw new System.ArgumentException("No Game Manager Found");
 
+        
+        
     }
 
     private void OnCollisionEnter2D(Collision2D col)

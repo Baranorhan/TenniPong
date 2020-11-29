@@ -8,34 +8,34 @@ using Photon.Realtime;
 public class Character : MonoBehaviour
 {
     private Vector3 _movement;
-    private float _racket;
-    [SerializeField] protected Rigidbody2D CharRigid;
+    protected float _racket;
+    protected Rigidbody2D _charRigid;
     [SerializeField] protected float speed;
     [SerializeField] protected Racket charRacket;
     [SerializeField] protected bool isLeft;
     protected virtual void Start()
     {
-        //CharRigid = GetComponentInChildren<Rigidbody2D>(); //Getting First child Be careful
+        _charRigid = GetComponent<Rigidbody2D>();
     }
 
     public void ResetPosition()
     {
-        CharRigid.velocity = new Vector3(0f, 0f, 0f);
+        Debug.Log(_charRigid.position);
+        _charRigid.velocity = new Vector3(0f, 0f, 0f);
         charRacket.ResetPosRacket();
-        CharRigid.position = new Vector3((isLeft ? -1: 1)*7f, 0f, 0f);
+        _charRigid.position = new Vector3((isLeft ? -1: 1)*7f, 0f, 0f);
     }
 
     private void Move()
     {
         _movement =new Vector3(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"),0);
-        CharRigid.AddForce(_movement * -speed, ForceMode2D.Impulse);
+        _charRigid.AddForce(_movement * -speed, ForceMode2D.Impulse);
         _racket = Input.GetAxis("Racket");
         if(Math.Abs(_racket) > 0.1)
             charRacket.Swing(_racket/10);
-        
     }
 
-    protected virtual void Update()
+    protected virtual void FixedUpdate()
     {
         Move();
     }

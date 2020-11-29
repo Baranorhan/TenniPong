@@ -29,6 +29,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     }
     [SerializeField] private MpGameobjectClass mpGameobjects = new MpGameobjectClass();
     [SerializeField] private UiObj _uiObj = new UiObj();
+    [SerializeField] private GameManager gameManager;
+    private GameObject _left, _right, _ball;
     private bool _isHost = false;
 
     private void Start()
@@ -48,16 +50,16 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     public override void OnConnectedToMaster()
     {
-        Debug.Log("connected");
         Debug.Log(PhotonNetwork.LocalPlayer.NickName);
         PhotonNetwork.AutomaticallySyncScene = true;
         _uiObj.loginMenu.SetActive(true);
         _uiObj.loadingScreen.SetActive(false);
 
     }
+
     public override void OnDisconnected(DisconnectCause cause)
     {
-        Debug.Log("disconnected");
+        
     }
 
     public void JoinGameTenni()
@@ -85,32 +87,32 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     }
     public override void OnCreatedRoom()
     {
-        Debug.Log("created.");
-        PhotonNetwork.Instantiate(mpGameobjects.host.name,
+        _left = PhotonNetwork.Instantiate(mpGameobjects.host.name,
         new Vector3(-7f, 0f, 0f), Quaternion.identity, 0);
         _isHost = true;
         _uiObj.loadingScreen.SetActive(true);
-        PhotonNetwork.Instantiate(mpGameobjects.ball.name, new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
 
     }
 
     public override void OnJoinedRoom()
     {
         if (!_isHost)
-            PhotonNetwork.Instantiate(mpGameobjects.client.name, 
+           _right = PhotonNetwork.Instantiate(mpGameobjects.client.name, 
          new Vector3(7f, 0f, 0f), Quaternion.identity, 0);
+        Invoke("SendPlayerandBall",1f);
 
-        Debug.Log("joined.");
-
-        
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
         _uiObj.loadingScreen.SetActive(false);
+        Invoke("SendPlayerandBall",1f);
 
-        //PhotonNetwork.Instantiate(mpGameobjects.ball.name, new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
+        _ball = PhotonNetwork.Instantiate(mpGameobjects.ball.name, new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
+    }
 
-        Debug.Log(newPlayer);
+    private void SendPlayerandBall()
+    {
+        gameManager.SetPlayersandBall();
     }
 }

@@ -1866,15 +1866,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mpGameobjects:
-    host: {fileID: 7046220915748733496, guid: 52c77eaa9b5f99948a70fad60f824d25, type: 3}
+    host: {fileID: 8351078686474633261, guid: 3218033c2c4066d43b43941389e0ef98, type: 3}
     ball: {fileID: 7206631516492620880, guid: dc0ee742869e39c40bb851d87acfaa4c, type: 3}
-    client: {fileID: 7046220915748733496, guid: c746b8b85b5696f4bb6bc1e4e8c63490,
+    client: {fileID: 8351078686474633261, guid: 0af393c1ea50a9a43a024f04eae22b2d,
       type: 3}
   _uiObj:
     loginMenu: {fileID: 345736582}
     loadingScreen: {fileID: 812739290}
     spinner: {fileID: 1205961391}
     spinnerRotationSpeed: 15
+  gameManager: {fileID: 1509487038}
 --- !u!4 &1137790103
 Transform:
   m_ObjectHideFlags: 0
@@ -2099,11 +2100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _score: {fileID: 1700085523}
-  leftChar: {fileID: 1686210857843607885, guid: 52c77eaa9b5f99948a70fad60f824d25,
-    type: 3}
-  rightChar: {fileID: 1686210857843607885, guid: c7285a52601f7704c8b074543fe83234,
-    type: 3}
-  ball: {fileID: 7206631516492620884, guid: dc0ee742869e39c40bb851d87acfaa4c, type: 3}
 --- !u!23 &1509487039
 MeshRenderer:
   m_ObjectHideFlags: 0

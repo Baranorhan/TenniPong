@@ -20,23 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd38941-d50b-41ea-b905-976c7e4b7e50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Left.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Left.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Left.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Left.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Right.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Right.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Right.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Right.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ball1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ball1.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Multiplayer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Multiplayer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManagerNet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManagerNet.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GoalMade.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GoalMade.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetworkManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetworkManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/NetChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network/NetChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network/NetworkManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +54,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Multiplayer.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network/GameManagerNet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.3.9/Editor/BurstAotCompiler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/CharacterMoments.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ml-agents@1.0.2-preview/Runtime/Academy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PunClasses.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" root0="FORCE_HIGHLIGHTING" />
@@ -70,9 +73,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/CharacterMoments.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Racket.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NetworkManager.cs" />
@@ -81,9 +82,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManagerNet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetChecker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetworkManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetworkManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
@@ -141,6 +144,8 @@
       <workItem from="1606416109286" duration="3324000" />
       <workItem from="1606468040380" duration="5177000" />
       <workItem from="1606579174548" duration="8165000" />
+      <workItem from="1606642781933" duration="9920000" />
+      <workItem from="1606677810533" duration="1470000" />
     </task>
     <servers />
   </component>
@@ -169,6 +174,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog/0.0.1536.864@0.0.1536.864" timestamp="1606477380662" />
+    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606673628800">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1606673628800" />
+    <state x="366" y="31" width="803" height="801" key="find.popup" timestamp="1606673630512">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="366" y="31" width="803" height="801" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1606673630512" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1606599163132">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -7,21 +7,20 @@ public class NetworkHuman : Character
 {
 
     private NetChecker myNetChecker;
-    private void Start()
-    {
-        myNetChecker = this.GetComponent<NetChecker>();
+    protected override void Start()
+    { 
+        myNetChecker = GetComponent<NetChecker>();
 
         base.Start();
-        Debug.Log("sub class "+ CharRigid);
 
     }
 
-    protected override void Update()
+    protected override void FixedUpdate()
     {
         {
             if (myNetChecker.Ismine)
             {
-                base.Update();
+                base.FixedUpdate();
             }
         }
     }

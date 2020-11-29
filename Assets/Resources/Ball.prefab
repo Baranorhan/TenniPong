@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4619095006150351562}
   - component: {fileID: -5989733902685868768}
   m_Layer: 9
-  m_Name: ball1
+  m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,5 +158,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3

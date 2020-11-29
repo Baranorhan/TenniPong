@@ -13,17 +13,17 @@ public class AiMedium : Character
     private float _balldirection;
     private Vector2 _direction = new Vector2(0, 0);
 
-    private void FixedUpdate()
+    private void FixedUpdate() //TODO gözden geçir
     {
         var position = ball.position;
         _ballx = position.x;
         _bally = position.y;
         _balldirection = ball.velocity.x;
 
-        if (Mathf.Abs(_bally - CharRigid.position.y) < 0.4f)
+        if (Mathf.Abs(_bally - _charRigid.position.y) < 0.4f)
             _direction.y = 0;
 
-        else if (_bally>CharRigid.position.y)
+        else if (_bally>_charRigid.position.y)
         {
                 _direction.y = 1;
         }
@@ -33,7 +33,7 @@ public class AiMedium : Character
         }
         if (_ballx < 0 ) // Top karşı sahada
         {
-            if (CharRigid.position.x < 7.1f) // arkada bekle 
+            if (_charRigid.position.x < 7.1f) // arkada bekle 
                 _direction.x = 1;
             else
                 _direction.x = 0;
@@ -41,7 +41,7 @@ public class AiMedium : Character
         }
         else if (_ballx > 0 && _balldirection < 0.7f) // Top sahada ve yavaş
         {
-            if (_ballx > CharRigid.position.x) //top arkada
+            if (_ballx > _charRigid.position.x) //top arkada
                 _direction.x = 1;
             else
                 _direction.x = -0.2f;
@@ -52,11 +52,11 @@ public class AiMedium : Character
     private void LateUpdate()
     {
 
-        if (Mathf.Abs(_ballx - CharRigid.position.x) <2)
+        if (Mathf.Abs(_ballx - _charRigid.position.x) <2)
         {
-            if (Mathf.Abs(_bally - CharRigid.position.y) < 1)
+            if (Mathf.Abs(_bally - _charRigid.position.y) < 1)
             {
-                if(CharRigid.position.y<0)
+                if(_charRigid.position.y<0)
                     charRacket.Swing(+1);
                 else
                     charRacket.Swing(-1);
@@ -65,7 +65,7 @@ public class AiMedium : Character
             }
         }
         
-        CharRigid.AddForce(_direction * speed, ForceMode2D.Impulse);
+        _charRigid.AddForce(_direction * speed, ForceMode2D.Impulse);
 
     }
 }

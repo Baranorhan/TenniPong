@@ -6,7 +6,9 @@ public class NetChecker : MonoBehaviourPunCallbacks
 {
     [HideInInspector]public bool Ismine;
     private void Awake() {
+        
         Ismine = (photonView.IsMine == true && PhotonNetwork.IsConnected == true);
+        
     }
     
 }

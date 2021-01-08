@@ -10,11 +10,15 @@ using UnityEditor;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] protected TextMeshProUGUI _score;
+    [SerializeField] protected bool _isMultiPlayer, _isml;
     protected int _scoreLeft = 0, _scoreRight = 0 ;
     private Character leftChar, rightChar;
+    private Mlagent _rightML;
     private Rigidbody2D ball;
     public void Goal(GoalGate wall)
     {
+        ResetBall();
+
         if (wall.name.Equals("LeftCollider"))
         {
             _scoreLeft += 1;
@@ -26,15 +30,29 @@ public class GameManager : MonoBehaviour
 
         _score.text = _scoreLeft + "         " + _scoreRight;
 
-        ResetBall();
         leftChar.ResetPosition();
+        if (_isml)
+        { _rightML.ResetPosition();
+        
+        }else
         rightChar.ResetPosition();    
         
     }
 
     void Start()
     {
-        ResetBall();
+        if (!_isMultiPlayer)
+        {
+            leftChar = GameObject.Find("Left").GetComponent<Character>();
+            if (_isml)
+            {
+                _rightML = GameObject.Find("MLright").GetComponent<Mlagent>();
+            }
+            else rightChar = GameObject.Find("AI").GetComponent<Character>();
+            
+            ball = GameObject.Find("Ball").GetComponent<Rigidbody2D>();
+        }
+       ResetBall();
     }
 
     protected void  ResetBall()

@@ -20,21 +20,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd38941-d50b-41ea-b905-976c7e4b7e50" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TenniPong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Başlıksız-1.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Başlıksız-1.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ForwardRenderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ForwardRenderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LightweightRenderPipelineAsset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LightweightRenderPipelineAsset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/Menu_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/Menu_timers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/background.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/background.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/character.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/character.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/walls 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/walls 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/walls.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/walls.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Shader Graph.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Shader Graph.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Ball.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Left.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Left.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Left.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Left.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Right.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Right.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Right.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Right.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ball1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ball1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Multiplayer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Multiplayer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/NetChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network/NetChecker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network/NetworkManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/GameManagerNet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/GameManagerNet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/Hadibakalım.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/Hadibakalım.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/checkpoint.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/frozen_graph_def.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/frozen_graph_def.pb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/model-1214786.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/model-1214786.ckpt.data-00000-of-00001.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/model-1214786.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/model-1214786.ckpt.index.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/model-428850.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/model-428850.ckpt.data-00000-of-00001.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/model-428850.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/model-428850.ckpt.index.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/model-845048.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/model-845048.ckpt.data-00000-of-00001.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/model-845048.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/model-845048.ckpt.index.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/raw_graph_def.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/Hadibakalım/TenniPong/raw_graph_def.pb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/TenniPong.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/TenniPong/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/TenniPong/checkpoint.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/TenniPong/frozen_graph_def.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/TenniPong/frozen_graph_def.pb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/TenniPong/model-39498.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/TenniPong/model-39498.ckpt.data-00000-of-00001.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/TenniPong/model-39498.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/TenniPong/model-39498.ckpt.index.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/TenniPong/raw_graph_def.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/TenniPong/raw_graph_def.pb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/bismillah2.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/models/bismillah2/bismillah2.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/AI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/AI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Left.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Left.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/MLright.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/MLright.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Right.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Right.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/ball.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
@@ -54,7 +114,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Multiplayer.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network/GameManagerNet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.3.9/Editor/BurstAotCompiler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/CharacterMoments.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,6 +121,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ml-agents@1.0.2-preview/Runtime/Academy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Editor/2D/Renderer2DUpgrader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PunClasses.cs" root0="FORCE_HIGHLIGHTING" />
@@ -74,20 +134,20 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/CharacterMoments.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Racket.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NetworkManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManagerML.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManagerNet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/NetworkHuman.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetworkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GoalGate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/AiMedium.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Human.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetworkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Mlagent.cs" />
       </list>
     </option>
   </component>
@@ -146,6 +206,11 @@
       <workItem from="1606579174548" duration="8165000" />
       <workItem from="1606642781933" duration="9920000" />
       <workItem from="1606677810533" duration="1470000" />
+      <workItem from="1609578156530" duration="4719000" />
+      <workItem from="1609596319232" duration="2954000" />
+      <workItem from="1609692178731" duration="28000" />
+      <workItem from="1609764487502" duration="1259000" />
+      <workItem from="1610094942675" duration="3618000" />
     </task>
     <servers />
   </component>

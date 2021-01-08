@@ -168,7 +168,6 @@
           <e p="GoalGate.cs" t="Include" />
           <e p="MenuManager.cs" t="Include" />
           <e p="Network" t="Include">
-            <e p="GameManagerNet.cs" t="Include" />
             <e p="NetChecker.cs" t="Include" />
             <e p="NetworkManager.cs" t="Include" />
           </e>

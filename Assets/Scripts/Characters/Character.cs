@@ -7,7 +7,7 @@ using Photon.Realtime;
 
 public class Character : MonoBehaviour
 {
-    private Vector3 _movement;
+    protected Vector3 _movement;
     protected float _racket;
     protected Rigidbody2D _charRigid;
     [SerializeField] protected float speed;
@@ -15,7 +15,7 @@ public class Character : MonoBehaviour
     [SerializeField] protected bool isLeft;
     protected virtual void Start()
     {
-        _charRigid = GetComponent<Rigidbody2D>();
+        _charRigid = GetComponentInChildren<Rigidbody2D>();
     }
 
     public void ResetPosition()

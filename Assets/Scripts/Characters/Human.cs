@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class Human : Character
 {
-    private Vector3 _movement;
 
     protected override void FixedUpdate()
     {

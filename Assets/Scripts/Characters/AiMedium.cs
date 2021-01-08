@@ -61,7 +61,6 @@ public class AiMedium : Character
                 else
                     charRacket.Swing(-1);
 
-                Debug.Log("hi");
             }
         }
         

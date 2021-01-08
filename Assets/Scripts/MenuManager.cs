@@ -1,22 +1,38 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using UnityEngine;
 using UnityEditor;
+using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+
+    private static MenuManager instance=null;
     
-    void Start()
+    public void LoadMainMenu()
     {
-
-        DirectoryInfo dir = new DirectoryInfo(Application.dataPath + "/models");
-        DirectoryInfo[] info = dir.GetDirectories("*.*");
-        foreach (DirectoryInfo f in info)
+        
+        SceneManager.LoadScene("Menu");
+    } public void LoadAI()
+    {
+        SceneManager.LoadScene("AI");
+    } public void LoadMultiplayer()
+    {
+        SceneManager.LoadScene("Multiplayer");
+    }
+    public void LoadML()
+    {
+    SceneManager.LoadScene("ML");
+    }
+    private void Awake()
+    {
+        if (instance == null)
         {
-            print(f.Name);
+            instance = this;
+            DontDestroyOnLoad(this.gameObject);
         }
+        else 
+            Destroy(this);
     }
-
-public void OpenMlScene(){
     
-    }
 }

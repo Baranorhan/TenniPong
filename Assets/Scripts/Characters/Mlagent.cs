@@ -69,7 +69,7 @@ public class Mlagent : Agent
         if (ballSpeed > 4f)
         {            
             _reward += ballSpeed/10000;    // max 20 speed 0.02 Reward
-            Debug.Log(_reward);
+           // Debug.Log(_reward);
 
         }
         

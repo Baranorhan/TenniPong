@@ -11,18 +11,17 @@ public class MenuManager : MonoBehaviour
     
     public void LoadMainMenu()
     {
-        
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene(0);
     } public void LoadAI()
     {
-        SceneManager.LoadScene("AI");
+        SceneManager.LoadScene(1);
     } public void LoadMultiplayer()
     {
-        SceneManager.LoadScene("Multiplayer");
+        SceneManager.LoadScene(2);
     }
     public void LoadML()
     {
-    SceneManager.LoadScene("ML");
+    SceneManager.LoadScene(3);
     }
     private void Awake()
     {
@@ -32,7 +31,7 @@ public class MenuManager : MonoBehaviour
             DontDestroyOnLoad(this.gameObject);
         }
         else 
-            Destroy(this);
+            Destroy(this.gameObject);
     }
     
 }

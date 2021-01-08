@@ -38,8 +38,13 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         Debug.Log("connecting");
         PhotonNetwork.NickName = "Try " + Random.Range(0, 999).ToString();
         PhotonNetwork.GameVersion = "0.0.1";
-
+    if(!PhotonNetwork.IsConnected)
         PhotonNetwork.ConnectUsingSettings();
+    else
+    {
+        _uiObj.loginMenu.SetActive(true);
+        _uiObj.loadingScreen.SetActive(false);
+    }
         PhotonNetwork.AutomaticallySyncScene = true;
 
     }
